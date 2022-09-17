@@ -50,6 +50,8 @@ export default defineConfig({
             pattern: 'https://github.com/CaiJimmy/stack-docs/edit/master/docs/:path',
             text: 'Edit this page on GitHub'
         },
+
+        outline: [2, 3]
     },
 });
 
@@ -65,6 +67,16 @@ function sidebarGuide() {
             ]
         },
         {
+            text: 'Writing',
+            collapsible: true,
+            items: [
+                { text: 'Markdown', link: '/writing/markdown' },
+                {
+                    text: 'Frontmatter Configs', link: '/writing/frontmatter'
+                }
+            ]
+        },
+        {
             text: 'Config',
             collapsible: true,
             items: [
@@ -72,16 +84,49 @@ function sidebarGuide() {
                     text: 'Introduction',
                     link: '/config/'
                 },
-
-            ]
-        },
-        {
-            text: 'Writing',
-            collapsible: true,
-            items: [
-                { text: 'Markdown', link: '/writing/markdown' },
                 {
-                    text: 'Frontmatter Configs', link: '/writing/frontmatter'
+                    text: 'Site Configs',
+                    link: '/config/site'
+                },
+                {
+                    text: 'Date Format',
+                    link: '/config/date-format'
+                },
+                {
+                    text: 'Sidebar',
+                    link: '/config/sidebar'
+                },
+                {
+                    text: 'Footer',
+                    link: '/config/footer'
+                },
+                {
+                    text: 'Article',
+                    link: '/config/article'
+                },
+                {
+                    text: 'Comments',
+                    link: '/config/comments'
+                },
+                {
+                    text: 'Widgets',
+                    link: '/config/widgets'
+                },
+                {
+                    text: 'Open Graph',
+                    link: '/config/open-graph'
+                },
+                {
+                    text: 'Default Image',
+                    link: '/config/default-image'
+                },
+                {
+                    text: 'Color Scheme',
+                    link: '/config/color-scheme'
+                },
+                {
+                    text: 'Image Processing',
+                    link: '/config/image-processing'
                 }
             ]
         },

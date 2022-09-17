@@ -1,6 +1,6 @@
 # Writing
 
-Stack uses Hugo's page bundles to organize your content. A page bundle is a directory that contains a content file and any related resources. For example, a page bundle for a blog post might look like this:
+Stack uses Hugo's **page bundles** to organize your content. A page bundle is a directory that contains a content file and any related resources. For example, a page bundle for a blog post might look like this:
 
 ```
 content

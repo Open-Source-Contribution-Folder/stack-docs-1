@@ -25,11 +25,11 @@ Show / hide comment section of the page.
 
 ## license
 
-* Type: `string`
+* Type: `string|bool`
 * Available in: single pages
 * Default: `.Site.Params.Article.License.Default`
 
-License of the page.
+License of the page. If it's set to `false`, the license section will be hidden.
 
 ## math
 
