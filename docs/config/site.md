@@ -24,3 +24,11 @@ Front Matter **field** used to get the featured image of a page.
 - Default: `true`
 
 Output page's full content in RSS.
+
+## favicon
+
+- Type: `string`
+
+Site favicon path. 
+
+For example, if you want to use the favicon in `static/favicon.ico`, set `favicon` to `/favicon.ico`.
