@@ -27,7 +27,7 @@ export default defineConfig({
         logo: '/logo.png',
 
         footer: {
-            message: "Released under the MIT License.",
+            message: "Documentation released under the MIT License, logo designed by Jimmy Cai, all rights reserved.",
             copyright: "Copyright © 2020 - Present Jimmy Cai",
         },
 
