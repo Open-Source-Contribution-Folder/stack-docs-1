@@ -63,7 +63,7 @@ function sidebarGuide() {
             items: [
                 { text: 'About Stack', link: '/guide/' },
                 { text: 'Getting Started', link: '/guide/getting-started' },
-                { text: 'Deploying', link: '/guide/deploying' }
+                { text: 'Modify Theme', link: '/guide/modify-theme' }
             ]
         },
         {
@@ -89,8 +89,16 @@ function sidebarGuide() {
                     link: '/config/site'
                 },
                 {
+                    text: 'i18n Configs',
+                    link: '/config/i18n'
+                },
+                {
                     text: 'Custom Menu',
                     link: '/config/menu'
+                },
+                {
+                    text: 'Custom Header / Footer',
+                    link: '/config/header-footer'
                 },
                 {
                     text: 'Date Format',
