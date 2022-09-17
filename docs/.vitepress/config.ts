@@ -89,6 +89,10 @@ function sidebarGuide() {
                     link: '/config/site'
                 },
                 {
+                    text: 'Custom Menu',
+                    link: '/config/menu'
+                },
+                {
                     text: 'Date Format',
                     link: '/config/date-format'
                 },
